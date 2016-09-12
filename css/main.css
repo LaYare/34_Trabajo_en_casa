@@ -1,0 +1,288 @@
+/*Navegador*/
+nav{
+	background-color: #2A9A45 !important;
+	padding: 2.7% 0;
+	border: none!important;
+}
+a{
+	color: white !important;
+	font-size: 1.2em;
+}
+a:hover{
+	color: #2A9A45 !important;
+	background-color: white !important;
+}
+/*banner con imagen del valle*/
+.valle{
+	background-image: url("../img/carousel-bg.jpg");
+	height: 35em;
+	background-size: cover;
+	background-position: center;
+	margin-top: -6.5%;
+}
+#bea{
+	font-size: 4.1em;
+	color: white;
+	margin-top: 7%;
+}
+#par{
+	font-size: 2em;
+	margin-top: 5%;
+	color: white;
+}
+/*paleta de colores*/
+.big{
+	font-size: 4.2em; 
+}
+.w{
+	color: white;
+}
+.b{
+	color: black;
+}
+hr{
+	width: 15em;
+	height: .1em;
+	background: grey;
+}
+.borde{
+	height: 12em;
+}
+.pad [class*="col-"] {
+    padding: 0;
+}
+.mgt{
+	margin-top: 2%;
+}
+#uno{
+	background-color: #69D2E7; 
+}
+#dos{
+	background-color: #A7DBDB;
+}
+#tres{
+	background-color: #E0E4CC;
+}
+#cuatro{
+	background-color: #F38630;
+}
+#cinco{
+	background-color: #FA6900;
+}
+#seis{
+	background-color: #E94C6F;
+}
+#siete{
+	background-color: #542733;
+}
+#ocho{
+	background-color: #5A6A62;
+}
+#nueve{
+	background-color: #C6D5CD;
+}
+#diez{
+	background-color: #FDF200;
+}
+#once{
+	background-color: #DB3340;
+}
+#doce{
+	background-color: #E8B71A;
+}
+#trece{
+	background-color: #F7EAC8;
+}
+#catorce{
+	background-color: #1FDA9A;
+}
+#quince{
+	background-color: #28ABE3;
+}
+#dseis{
+	background-color: #588C73;
+}
+#dsiete{
+	background-color: #F2E394;
+}
+#docho{
+	background-color: #F2AE72;
+}
+#dnueve{
+	background-color: #D96459;
+}
+#veinte{
+	background-color: #8C4646;
+}
+#vuno{
+	background-color: #D0C91F;
+}
+#vdos{
+	background-color: #85C4B9;
+}
+#vtres{
+	background-color: #008BBA;
+}
+#vcuatro{
+	background-color: #DF514C;
+}
+#vcinco{
+	background-color: #DC403B;
+}
+/*seccion aboutus*/
+.bgb{
+	background-color: #1B1F30;
+	padding: 10% 0;
+}
+progress{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	width: 100%;
+}
+progress::-webkit-progress-bar {
+    border: .2em solid #ccc;
+    height: 1em;
+}
+progress::-webkit-progress-value {
+    background-color: #D96202;
+}
+/*seccion what we do*/
+.green{
+	background-color: #2A9A45;
+	padding: 10% 0;
+}
+.bg2{
+	background-color: #1B1F30;
+	background-image: url("../img/icon-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40%;
+	padding: 6% 0;
+	margin-top: 30%;
+}
+.mgt2{
+	margin-top: 10%;
+}
+.hob:hover{
+	background-color: rgba(0,0,9,0.4);
+	transition: .4s;
+	transform: scale(1.03);
+}
+.hob:hover .o{
+	color: rgba(217,98,2,0.7);
+	border-bottom: 1px solid white;
+	padding-bottom: 3%;
+}
+.hob:hover .bg2{
+	background-image: none;
+	background-color: rgba(217,98,2,0.7);
+	transform: rotate(45deg);
+	transition: .2s;
+}
+.bo{
+	border: none;
+	background-color: #1B1F30;
+	color: white;
+	margin-top: 5%;
+	padding: 1% 5%;
+}
+.bo:hover{
+	color: #2A9A45;
+}
+/*our awesome team*/
+.dash{
+	border-bottom: 2px dashed grey;
+	padding-bottom: 3%;
+}
+.res{
+	margin: 10% 3%;
+}
+.na{
+	background-color: rgba(217,98,2,0.7);
+	padding: 4%;
+	margin-top: -4%;
+	border: .1em solid green;
+}
+.blank{
+	background-color: rgba(255,255,255,0.7);
+	padding: 3%;
+	margin-top: -4%;
+	border: .1em solid green;
+}
+.mmt{
+	margin-top: -5%;
+}
+.boo{
+	background-color: #333232;
+	border: none;
+	padding: 2% 6%;
+	margin-top: 25%;
+	margin-bottom: 25%;
+}
+.bor{
+	border: .1em solid green;
+	margin-top: -4%;
+}
+.a{
+	background: none;
+}
+.trans:hover{
+	transform: translateY(-3em); 
+	transition: 1s;
+}
+.trans:hover .bor{
+	border: .1em solid orange;
+
+}
+.trans:hover .na{
+	border: .1em solid orange;
+
+}
+.trans:hover .blank{
+	border: .1em solid orange;
+
+}
+/*say*/
+.mgt3{
+	margin-top: 5%;
+}
+.naranja{
+	color: orange;
+	font-size: 1.3em;
+}
+input{
+	width: 70%;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+textarea{
+	max-width: 70%;
+	min-width: 70%;
+	max-height: 20em;
+	min-height: 17em;
+	padding: 1%;
+}
+.booo{
+	background-color: #333232;
+	border: none;
+	color: white;
+	padding: 1% 3%;
+	margin-top: 3%;
+}
+/*foot*/
+.trig{
+	background-image: url("../img/img-divider-img.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 15em;
+}
+.soc{
+	margin: 5% 2%;
+	margin-bottom: 0;
+	height: 4em;
+}
+.n{
+	padding: 5%;
+	padding-bottom: 1%;
+}
